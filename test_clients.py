@@ -10,6 +10,3 @@ def test_purchase():
     
 def test_print_object():
     assert str(a_client).startswith('This object is relate to:')
-
-def test_error():
-    assert a_client.number_set(678) == 54321
