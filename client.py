@@ -21,11 +21,11 @@ class Client:
 
     def purchase(self,product,price_per_unit,amount = 1):
         total = price_per_unit * amount
-        return f'Congrats! You Purchase x{amount} {product} for {total}!! \n We are going to send yours products to "{self.client_address}" in the next 6 Hours'
+        return total
     
     def number_set(self,new_number:int):
         self._client_phone = new_number
-        print(f'Number of {self.client_full_name} has been updated.')
+        return self._client_phone
 
     def number_get(self):
         return self._client_phone
