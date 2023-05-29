@@ -3,7 +3,7 @@ class Member(Client):
     def __init__(self, client_full_name: str, client_email: str, client_phone: int, client_address: str, member_discount = 15):
         super().__init__(client_full_name, client_email, client_phone, client_address)
         self.member_discount = member_discount
-    pass
+
 
     def print_details(self):
         return f'\nNAME: {self.client_full_name} \nEMAIL: {self.client_email} \nID: {self.client_id} \nPHONE: {self._client_phone} \nADDRESS: {self.client_address} \nDiscount: {self.member_discount} %'

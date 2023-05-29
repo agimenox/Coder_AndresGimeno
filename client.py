@@ -21,7 +21,7 @@ class Client:
 
     def purchase(self,product,price_per_unit,amount = 1):
         total = price_per_unit * amount
-        return total
+        return f'{total} units of {product}'
     
     def number_set(self,new_number:int):
         self._client_phone = new_number
