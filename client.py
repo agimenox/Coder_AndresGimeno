@@ -29,3 +29,6 @@ class Client:
 
     def number_get(self):
         return self._client_phone
+    
+    def name_get(self):
+        return self.client_full_name
