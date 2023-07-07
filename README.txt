@@ -1,1 +1,1 @@
-Correr main para probar todas las funciones y clases.
+Run main to test all classes and functions.
